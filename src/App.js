@@ -67,13 +67,13 @@ function App() {
       </div>
       <div className='buttonsection'>
         <button onClick={() => play("scissors")}>
-          <img src='/scissors.png'></img>
+          <img src='/scissors.png' alt='가위 이미지'></img>
         </button>
         <button onClick={() => play("rock")}>
-          <img src='/rock.png'></img>
+          <img src='/rock.png' alt='바위 이미지'></img>
         </button>
         <button onClick={() => play("paper")}>
-          <img src='/paper.png'></img>
+          <img src='/paper.png' alt='보 이미지'></img>
         </button>
       </div>
       <div className='pop'>
