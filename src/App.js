@@ -62,8 +62,10 @@ function App() {
     <div className='main'>
       <h1 className='name'>가위 바위 보</h1>
       <div className='bg'>
-        <Box title="Computer" item={computerSelect || { img: "/rock.png" }} result={resultC} />
-        <Box title="User" item={userSelect || { img: "/rock.png" }} result={result} />
+        <Box title="Computer" item={computerSelect} result={resultC} />
+        <Box title="User" item={userSelect} result={result} />
+        {/* <Box title="Computer" item={computerSelect || { img: "/rock.png" }} result={resultC} />
+        <Box title="User" item={userSelect || { img: "/rock.png" }} result={result} /> 엑스박스 방지 할때*/}
       </div>
       <div className='buttonsection'>
         <button onClick={() => play("scissors")}>
