@@ -63,7 +63,8 @@ function App() {
       <h1 className='name'>가위 바위 보</h1>
       <div className='bg'>
         <Box title="Computer" item={computerSelect || { img: "/rock.png" }} result={resultC} />
-        <Box title="User" item={userSelect || { img: "/rock.png" }} result={result} />
+        <Box title="User" item={userSelect || { img: "/rock.png" }} result={result}
+      </div>
       <div className='buttonsection'>
         <button onClick={() => play("scissors")}>
           <img src='/scissors.png' alt='가위 이미지'></img>
